@@ -6,7 +6,20 @@
 
     <groupId>lmCloud</groupId>
     <artifactId>com.lmdestiny</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>cloud-common</module>
+        <module>cloud-cluster</module>
+        <module>cloud-config</module>
+        <module>cloud-container</module>
+        <module>cloud-remoting</module>
+        <module>cloud-registry</module>
+        <module>cloud-filter</module>
+        <module>cloud-rpc</module>
+        <module>cloud-serialization</module>
+        <module>cloud-plugin</module>
+    </modules>
 
 
 </project>
